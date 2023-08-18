@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Pediatrica</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./img/contato.jpg" alt="Header da Página Contato">
+            </div>
+    
+            <div class="content">
+                <p>Entre em contato conosco:</p>
+                <ul>
+                    <li>Telefone: (XX) XXXX-XXXX</li>
+                    <li>WhatsApp: (XX) XXXXX-XXXX</li>
+                    <li>Endereço: Endereço da Clínica</li>
+                </ul>
+                <iframe src="https://goo.gl/maps/AMephZytH8xN5Tow9" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <form>
+                    <form action="processar_formulario.php" method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+                    
+                </form>
+            </div>
+    
+            <footer>
+                <p>Entre em contato:</p>
+                <ul>
+                    <li>Telefone: (XX) XXXX-XXXX</li>
+                    <li>WhatsApp: (XX) XXXXX-XXXX</li>
+                    <li>Endereço: Endereço da Clínica</li>
+                </ul>
+            </footer>
+
+        </div>
+    </div>
+</body>
+</html>
