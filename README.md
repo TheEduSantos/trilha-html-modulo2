@@ -44,8 +44,11 @@ projeto-html/
 - Todas as imagens foram obtidas do Unsplash, links para as imagens individuais:
 
 https://unsplash.com/pt-br/fotografias/xM_1ZYHOc9E
+
 https://unsplash.com/pt-br/fotografias/743f0Dy8bFE
+
 https://unsplash.com/pt-br/fotografias/HuWm7malJ18
+
 https://unsplash.com/pt-br/fotografias/0Vc8UJenzm0
 
 ## Créditos
